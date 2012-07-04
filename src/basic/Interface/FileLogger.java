@@ -9,7 +9,7 @@ import java.io.FileOutputStream;
  * @author jaison
  *
  */
-public class FileLogger implements Logger {
+public class FileLogger implements LoggerInterface {
 
 	private String logFile;
 	private FileOutputStream loggerOutStream;

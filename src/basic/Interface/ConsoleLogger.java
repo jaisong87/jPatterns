@@ -3,7 +3,7 @@ package basic.Interface;
 /*
  * ConsoleLogger implementing the Interface Logger
  */
-public class ConsoleLogger implements Logger {
+public class ConsoleLogger implements LoggerInterface {
     
 	public ConsoleLogger(){
 	//Do nothing
