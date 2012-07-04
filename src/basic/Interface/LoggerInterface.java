@@ -3,6 +3,8 @@
  */
 package basic.Interface;
 
+import basic.commons.LogLevel;
+
 /**
  * @author jaisong87
  * Logger - Example for an interface

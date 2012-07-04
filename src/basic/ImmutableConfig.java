@@ -1,16 +1,17 @@
 package basic;
 
-import basic.Interface.LogLevel;
+import basic.commons.LogLevel;
+
 
 /*
- * Immutable Config is initialized once and then 
- * they are only queried.
+ * Pattern - Immutable
+ * 
+ * Immutable is initialized once and then 
+ * member attributes are only queried but not reset.
  * This pattern also provides thread safety without 
  * synchronized 
- * 
- * This class could be made singleton, static depending on
- * the used case.
  */
+
 public class ImmutableConfig {
 	private String dev;// "Jaison George";
 	private String devContact;// "jaisong87@gmail.com";

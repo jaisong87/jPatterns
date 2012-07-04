@@ -1,10 +1,15 @@
 package basic;
 
-import basic.Interface.LogLevel;
+import basic.commons.LogLevel;
+
 
 /*
+ * Pattern - ConstantDataManager
+ * 
  * All the constant data could be grouped into a
- * constantDataManager and used across the Framework
+ * constantDataManager and used across the Framework.
+ * The basic idea it to keep all the constants grouped
+ * in one single place.
  */
 public class ConstantDataManager {
 	public static final String Dev = "Jaison George";

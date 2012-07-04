@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import basic.Abstraction.ConsoleLogger;
 import basic.Abstraction.FileLogger;
-import basic.Interface.LogLevel;
+import basic.commons.LogLevel;
 
 public class LoggerTest {
 

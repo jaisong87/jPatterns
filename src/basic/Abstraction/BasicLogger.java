@@ -1,6 +1,6 @@
 package basic.Abstraction;
 
-import basic.Interface.LogLevel;
+import basic.commons.LogLevel;
 
 public abstract class BasicLogger {
 	private LogLevel myLogLevel;

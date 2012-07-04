@@ -2,7 +2,7 @@ package basic.Abstraction;
 
 import java.io.FileOutputStream;
 
-import basic.Interface.LogLevel;
+import basic.commons.LogLevel;
 
 public class FileLogger extends BasicLogger {
 	private String logFile;

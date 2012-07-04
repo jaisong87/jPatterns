@@ -1,5 +1,7 @@
 package basic.Interface;
 
+import basic.commons.LogLevel;
+
 /*
  * ConsoleLogger implementing the Interface Logger
  */

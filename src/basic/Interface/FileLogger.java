@@ -5,6 +5,8 @@ package basic.Interface;
 
 import java.io.FileOutputStream;
 
+import basic.commons.LogLevel;
+
 /**
  * @author jaison
  *
