@@ -15,6 +15,11 @@ public class GuardedSuspension {
     private boolean isDirty;
     private String _logFile; 
 
+    /* Not a great example - Parking problem is more of a 
+     * natural fit where data(cars) get parked into parking
+     * lot [ consume Memory/Other resource ] when there are
+     * free slots.
+     */
     public GuardedSuspension(String curLogFile)
     {
         _logFile = curLogFile;
