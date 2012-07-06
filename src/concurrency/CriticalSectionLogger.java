@@ -6,6 +6,8 @@ import basic.commons.LogLevel;
 /*
  * Pattern - CriticalSection 
  * 
+ * @ref - Kuchana(2004) 
+ *
  * These are usually implemented as singletons to provide
  * class level locks as opposed to instance level locks.
  * 
