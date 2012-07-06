@@ -7,6 +7,9 @@ package concurrency;
  * 
  * This is a good abstraction that could be extended
  * by thread-safe classes
+ * 
+ * Another option is to make getReadLock, getWriteLock, releaseLock 
+ * public and use an instance of ReadWriteLock   
  */
 public class ReadWriteLock {
 
